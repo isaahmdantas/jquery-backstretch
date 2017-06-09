@@ -8,9 +8,11 @@
     "email": "scott@robbin.co",
     "url": "http://srobbin.com"
   },
-  "main": ["jquery.backstretch.js"],
+  "main": [
+    "jquery.backstretch.js"
+  ],
   "dependencies": {
-    "jquery": ">=1.9.x"
+    "jquery": "^3.2.1"
   },
   "repository": {
     "type": "git",

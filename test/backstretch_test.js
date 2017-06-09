@@ -60,14 +60,14 @@
       , lazyload = false
       , paused = true
       , instance = $.backstretch(global.imgs, {duration: duration,lazyload:lazyload,start:start,paused:paused});
-      
+
     // Test to make sure the options are being set
     strictEqual(instance.options.duration, duration, 'passed options are being set');
     strictEqual(instance.options.lazyload, lazyload, 'passed options are being set');
     strictEqual(instance.options.start, start, 'passed options are being set');
     strictEqual(instance.options.paused, paused, 'passed options are being set');
   });
-  
+
     test('optionValidation', function() {
         var instance = null;
         //Out of bounds
@@ -95,4 +95,4 @@
     strictEqual(resized, true, 'passed resize event being called');
   });
 
-}(jQuery));
+}($));
